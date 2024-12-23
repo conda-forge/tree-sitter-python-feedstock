@@ -1,5 +1,5 @@
 {% set name = "tree-sitter-python" %}
-{% set version = "0.23.5" %}
+{% set version = "0.23.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tree-sitter/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bff5c8759d32f93aef8e559e10a7ce2af63f6fd7e7b68ba843f72ca7713048fe
+  sha256: 630a0f45eccd9b69a66a07bf47d1568e96a9c855a2f30e0921c8af7121e8af96
 
 build:
   skip: true  # [py<39]
